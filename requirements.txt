@@ -1,0 +1,5 @@
+# Instale esses dois pacotes
+
+Django==4.1.3
+djangorestframework==3.14.0
+
