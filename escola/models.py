@@ -2,8 +2,8 @@ from django.db import models
 
 class Aluno(models.Model):
     nome = models.CharField(max_length=30)
-    rg = models.CharField(max_length=10)
-    cpf = models.CharField(max_length=11)
+    rg = models.CharField(max_length=11)
+    cpf = models.CharField(max_length=10)
     data_de_nascimento = models.DateField()
 
     def __str__(self):
